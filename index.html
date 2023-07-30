@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="parent-container">
+        <div class="input">
+            <input type="text" name="text" id="text" placeholder="Search city">
+            <button onclick="Weather(input)">Search city</button>
+        </div>
+        <div class="display">
+            <div class="container">
+                <div class="image">
+                    <img src="img.png" alt="image" id="image">
+                </div>
+                <h1 id="temperature"></h1>
+                <h1 id="place">Chennai</h1>
+                <div class="informations">
+                    <p id="wind">Wind</p>
+                    <p id="humidity">Humidity</p>
+                    <p id="pressure">Pressure</p>
+                </div>
+                <div class="values">
+                    <p id="wind-value">15 km/hr</p>
+                    <p id="humidity-value">87 %</p>
+                    <p id="pressure-value">1000 hPa</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
